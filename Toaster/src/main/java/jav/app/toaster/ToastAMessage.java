@@ -7,7 +7,9 @@ public class ToastAMessage {
     public static void s(Context c, String message){
 
         Toast.makeText(c,message, Toast.LENGTH_SHORT).show();
+    }
 
-
+    public static int sum(Context context , int a, int b){
+        return a+b;
     }
 }
